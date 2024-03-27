@@ -10,11 +10,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Forecasting viral genomes with generative AI',
     description: 'Forecasting viral genomes with generative AI',
-    url: 'https://longcovid-crash-forecast.vercel.app/',
+    url: 'https://generative-genomes-app.vercel.app/',
     siteName: 'generative-genomes',
     images: [
       {
-        url: 'https://longcovid-crash-forecast.vercel.app/social-image.jpg', // Must be an absolute URL
+        url: 'https://generative-genomes-app.vercel.app/social-image.jpg', // Must be an absolute URL
         width: 640,
         height: 427,
       }]
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     title: 'Forecasting viral genomes with generative AI',
     description: 'Forecasting viral genomes with generative AI',
     images: [{
-      url: 'https://longcovid-crash-forecast.vercel.app/social-image.jpg', // Must be an absolute URL
+      url: 'https://generative-genomes-app.vercel.app/social-image.jpg', // Must be an absolute URL
       width: 640,
       height: 427,
     }]

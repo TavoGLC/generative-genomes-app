@@ -53,8 +53,8 @@ function getWeekNumber(doy: number){
     return 1 + Math.ceil((firstThursday - tempDate.valueOf()) / 604800000); // 604800000 = number of milliseconds in a week
     }
     
-const LocalModelURL = 'http://localhost:3000/converter/model.json';
-//const LocalModelURL = 'https://tlahui.vercel.app/composition/model.json';
+///const LocalModelURL = 'http://localhost:3000/converter/model.json';
+const LocalModelURL = 'https://generative-genomes-app.vercel.app/converter/model.json';
 
 async function ConverterModel(data:SliderData): Promise<any> {
 

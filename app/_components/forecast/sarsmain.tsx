@@ -16,8 +16,8 @@ export const SARSMainDisplay = () => {
 
     const {toDisplay,onConverted,onFree} = ToDisplaySARS ((state) => state)
 
-    const SARSModel = 'http://localhost:3000/decoder-sars/model.json';
-    //const compositionModelURL = 'https://tlahui.vercel.app/composition/model.json';
+    ///const SARSModel = 'http://localhost:3000/decoder-sars/model.json';
+    const SARSModel = 'https://generative-genomes-app.vercel.app/decoder-sars/model.json';
 
     return(
         <div>

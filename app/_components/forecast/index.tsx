@@ -10,15 +10,17 @@ export const MainForecast = () => {
 
     const {toDisplay,onSARS,onDENV,onVHB,onINFHA,onINFNEU} = ToDisplayViral ((state) => state)
 
-    const DENVModelURL = 'http://localhost:3000/decoder-denv/model.json';
-    //const DENVModelURL = 'https://tlahui.vercel.app/composition/model.json';
-    const VHBModelURL = 'http://localhost:3000/decoder-vhb/model.json';
-    //const compositionModelURL = 'https://tlahui.vercel.app/composition/model.json';
-
-    const INFHAModelURL = 'http://localhost:3000/decoder-infha/model.json';
-    //const DENVModelURL = 'https://tlahui.vercel.app/composition/model.json';
-    const INFNEUModelURL = 'http://localhost:3000/decoder-infneu/model.json';
-    //const compositionModelURL = 'https://tlahui.vercel.app/composition/model.json';
+    ///const DENVModelURL = 'http://localhost:3000/decoder-denv/model.json';
+    const DENVModelURL = 'https://generative-genomes-app.vercel.app/decoder-denv/model.json';
+    
+    ///const VHBModelURL = 'http://localhost:3000/decoder-vhb/model.json';
+    const VHBModelURL = 'https://generative-genomes-app.vercel.app/decoder-vhb/model.json';
+    
+    ///const INFHAModelURL = 'http://localhost:3000/decoder-infha/model.json';
+    const INFHAModelURL = 'https://generative-genomes-app.vercel.app/decoder-infha/model.json';
+    
+    ///const INFNEUModelURL = 'http://localhost:3000/decoder-infneu/model.json';
+    const INFNEUModelURL = 'https://generative-genomes-app.vercel.app/decoder-infneu/model.json';
 
     return(
         <div>

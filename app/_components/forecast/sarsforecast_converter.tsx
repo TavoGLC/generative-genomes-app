@@ -26,8 +26,10 @@ export const SARSForecastConverter = () => {
         const FetchData = async () => {
         
             const conversion = await ConverterModel(inputForm)
-            const compositionModelURL = 'http://localhost:3000/decoder-sars/model.json';
-            //const compositionModelURL = 'https://tlahui.vercel.app/composition/model.json';
+
+            ///const compositionModelURL = 'http://localhost:3000/decoder-sars/model.json';
+            const compositionModelURL = 'https://generative-genomes-app.vercel.app/decoder-sars/model.json';
+
     
             const localData = {
                     'data':conversion,
